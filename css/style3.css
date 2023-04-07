@@ -1,0 +1,84 @@
+/* フォーム全体 */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fdf3f3;
+  border: 2px solid #f4a7b9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #f4a7b9;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/* フォームの見出し */
+form h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #f4a7b9;
+  margin-bottom: 30px;
+}
+
+/* 入力欄のラベル */
+label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f4a7b9;
+}
+
+/* テキストボックス */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f8e4e4;
+}
+
+/* 年代のセレクトボックス */
+select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f8e4e4;
+}
+
+/* ラジオボタンとチェックボックスのラベル */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  font-weight: normal;
+  margin-right: 15px;
+  color: #f4a7b9;
+}
+
+/* 送信ボタンとリセットボタン */
+input[type="submit"],
+input[type="reset"] {
+  display: inline-block;
+  width: 180px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: #f4a7b9;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* 送信ボタンとリセットボタンのホバー時のスタイル */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #c26275;
+}
